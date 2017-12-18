@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var mobileMenuVisible = false;
-    $(".hamburger-button").on('click', function () {
+    $('.hamburger-button').click(function () {
         if (mobileMenuVisible) {
           $('.mobile-menu').css({'display':'none'});
           mobileMenuVisible = false;
