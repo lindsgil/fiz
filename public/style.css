@@ -87,7 +87,7 @@ ul.menu {
   display: block;
 }
 
-button.hamburger-button {
+.hamburger-button {
   background: none;
   right: 15px;
   position: absolute;
@@ -105,14 +105,6 @@ button.hamburger-button {
 
 .hamburger-menu-list {
   display: none;
-}
-
-.mobile-menu li {
-
-}
-
-button.hamburger-button:focus .mobile-menu {
-  display: block;
 }
 
 .hamburger-menu-list {
