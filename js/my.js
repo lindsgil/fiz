@@ -1,14 +1,14 @@
 var mobileMenuVisible = false;
-  $(".hamburger-button").click(function () {
+  $('.hamburger-button').click(function() {
       if (mobileMenuVisible) {
-        $('.mobile-menu').fadeOut('fast');
+        $('.hamburger-menu-list').fadeOut('fast');
         mobileMenuVisible = false;
         return;
       }
-      $('.mobile-menu').fadeIn('fast');
+      $('.hamburger-menu-list').fadeIn('fast');
       mobileMenuVisible = true;
   });
-  $('.mobile-menu').click(function() {
+  $('.hamburger-menu-list').click(function() {
     $(this).css({'display':'none'});
     mobileMenuVisible = false;
   });

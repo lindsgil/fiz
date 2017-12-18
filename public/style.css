@@ -103,7 +103,7 @@ button.hamburger-button {
   float: right;
 }
 
-.mobile-menu {
+.hamburger-menu-list {
   display: none;
 }
 
@@ -123,7 +123,7 @@ button.hamburger-button:focus .mobile-menu {
   width: 50%;
   background: rgba(251,210,200,0.8);
   font-family: Didot bold;
-  display: block;
+  display: none;
   text-align: center;
   float: right;
 }
