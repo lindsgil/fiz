@@ -87,7 +87,7 @@ ul.menu {
   display: block;
 }
 
-.hamburger-button {
+div.hamburger-button {
   background: none;
   right: 15px;
   position: absolute;

@@ -1,5 +1,5 @@
 var mobileMenuVisible = false;
-  $('.hamburger-button').on('click', function() {
+  $('div.hamburger-button').on('click', function() {
       if (mobileMenuVisible) {
         $('nav.hamburger-menu-list').fadeOut('fast');
         mobileMenuVisible = false;
