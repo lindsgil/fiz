@@ -1,5 +1,5 @@
 var mobileMenuVisible = false;
-  $('.hamburger-button').on('click', function() {
+  $('.hamburger-button').on('touchstart', function() {
       if (mobileMenuVisible) {
         $('nav.hamburger-menu-list').fadeOut('fast');
         mobileMenuVisible = false;
@@ -8,7 +8,7 @@ var mobileMenuVisible = false;
       $('nav.hamburger-menu-list').fadeIn('fast');
       mobileMenuVisible = true;
   });
-  $('nav.hamburger-menu-list').on('click', function() {
+  $('nav.hamburger-menu-list').on('touchstart', function() {
     $(this).css({'display':'none'});
     mobileMenuVisible = false;
   });
