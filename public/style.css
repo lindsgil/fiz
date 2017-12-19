@@ -1006,7 +1006,6 @@ header.mobile {
   #mobile-menu {
     float: right;
     text-align: center;
-    display: none;
     font-family: Didot bold;
     width: 50%;
     list-style-type: none;
