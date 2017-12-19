@@ -110,11 +110,11 @@ button.hamburger-button {
   float: right;
 }
 
-.hamburger-menu-list {
+#hamburger-menu-list {
   display: none;
 }
 
-.hamburger-menu-list {
+#hamburger-menu-list {
   z-index: 999999 !important;
   margin-top: 15vw;
   font-weight:bold;
@@ -126,7 +126,7 @@ button.hamburger-button {
   text-align: center;
   float: right;
 }
-.hamburger-menu-list ul {
+#hamburger-menu-list ul {
   list-style-type: none;
   list-style-image: none;
   color: white;
@@ -139,14 +139,14 @@ button.hamburger-button {
   margin-top: 100px;
   height: 100%;
 }
-.hamburger-menu-list li {
+#hamburger-menu-list li {
   display: block;
   height: 14%;
   color: black;;
   padding: 3vw;
   z-index: 99999;
 }
-.hamburger-menu-list ul li a {
+#hamburger-menu-list ul li a {
   text-decoration: none;
   color: white;
   opacity: 1.0;
@@ -156,17 +156,17 @@ button.hamburger-button {
   margin-left: auto;
   float: none;
 }
-.hamburger-menu-list ul li a:hover {
+#hamburger-menu-list ul li a:hover {
   color: white;
   text-decoration:none;
   opacity: 1.0;
 }
-.hamburger-menu-list a{
+#hamburger-menu-list a{
   text-decoration:none;
   color: white;
   opacity: 1.0;
 }
-.hamburger-menu-list a:hover{
+#hamburger-menu-list a:hover{
   text-decoration:none;
   color: white;
   opacity: 1.0;
@@ -1050,9 +1050,14 @@ header.mobile {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
