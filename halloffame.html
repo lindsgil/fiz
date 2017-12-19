@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./public/style.css">
+    <script type="text/javascript" src="my.js"></script>
     <title>The Future Is Zero</title>
   </head>
   <body>
@@ -28,8 +29,8 @@
             <li class='header-logo'></li>
           </a>
         </ul>
-        <button type='button' name='button' class='hamburger-button menu-icon'>&#9776;</button>
-        <nav class='hamburger-menu-list'>
+        <button type='button' name='button' onclick="showNav();" class='hamburger-button'>&#9776;</button>
+        <nav id='hamburger-menu-list'>
           <ul class='mobile-menu'>
             <li><a href='https://nwfilmforum.org/events/the-future-is-0-feb-2018/' class='header-ticket' target='_blank'>TICKETS</a></li>
             <li><a href='http://thefutureis0.bigcartel.com/' class='header-merch' target='_blank'>MERCH</a></li>
@@ -121,10 +122,5 @@
         </ul>
       </footer>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    <script type="text/javascript" src="my.js"></script>
   </body>
 </html>
