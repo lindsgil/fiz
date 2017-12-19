@@ -87,7 +87,11 @@ ul.menu {
   display: block;
 }
 
-.hamburger-button {
+button {
+  cursor: pointer;
+}
+
+button.hamburger-button {
   background: none;
   right: 15px;
   position: absolute;
@@ -931,6 +935,7 @@ header.mobile {
     z-index: 99999999;
     position: fixed;
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: space-between;
     text-align: center;
