@@ -1003,20 +1003,15 @@ header.mobile {
     color: #333;
   }
 
-  #hamburger-menu-list {
-    z-index: 999999 !important;
-    margin-top: 15vw !important;
-    font-weight:bold;
-    font-size: 3vw;
-    width: 50%;
-    background: rgba(251,210,200,0.8);
-    font-family: Didot bold;
-    display: none;
-    text-align: center;
+  #mobile-menu {
     float: right;
-  }
-  #hamburger-menu-list ul {
+    text-align: center;
+    display: none;
+    font-family: Didot bold;
+    width: 50%;
     list-style-type: none;
+    font-weight: bold;
+    font-size: 3vw;
     list-style-image: none;
     color: white;
     background-color: black;
@@ -1024,18 +1019,18 @@ header.mobile {
     top: 0px;
     right: 0px;
     position: fixed;
-    z-index: 99999;
+    z-index: 99999 !important;
     margin-top: 100px;
     height: 100%;
   }
-  #hamburger-menu-list li {
+  .mobile-list {
     display: block;
     height: 14%;
     color: black;;
     padding: 3vw;
     z-index: 99999;
   }
-  #hamburger-menu-list ul li a {
+  .mobile-list a {
     text-decoration: none;
     color: white;
     opacity: 1.0;
