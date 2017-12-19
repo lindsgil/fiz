@@ -3,9 +3,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no">
   <head>
     <meta charset="UTF-8">
+    <script>
+    function showNav() {
+      let elem = document.getElementById('mobile-menu');
+      console.log('elem', elem);
+      if(elem.style.display !== 'none') {
+        elem.style.display = 'none';
+      } else {
+        elem.style.display = 'block';
+      }
+    }
+    </script>
     <link rel="stylesheet" href="./public/style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script type="text/javascript" src="my.js"></script>
     <title>The Future Is Zero</title>
   </head>
   <body>
@@ -30,11 +39,8 @@
             <li class='header-logo'></li>
           </a>
         </ul>
-        <div class="btn-group">
-          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            &#9776;
-          </button>
-          <ul id='mobile-menu' class="dropdown-menu">
+        <button type='button' name='button' onclick="showNav();" class='hamburger-button'>&#9776;</button>
+          <ul id='mobile-menu'>
             <li class='mobile-list'><a href='https://nwfilmforum.org/events/the-future-is-0-feb-2018/' class='header-ticket' target='_blank'>TICKETS</a></li>
             <li class='mobile-list'><a href='http://thefutureis0.bigcartel.com/' class='header-merch' target='_blank'>MERCH</a></li>
             <li class='mobile-list'><a href='presspage.html' class='header-press'>PRESS</a></li>
@@ -42,7 +48,6 @@
             <li class='mobile-list'><a href='halloffame.html' class='header-past-shows'>HALL OF FAME</a></li>
             <li class='mobile-list'><a href='tel:+1-844-666-8349' class='header-phone'>RING RING</a></li>
           </ul>
-        </div>
       </header>
       <div class='show-strip'><a href='https://nwfilmforum.org/events/the-future-is-0-feb-2018/' target='_blank'><h2 class='show-strip-text'>TICKETS ON SALE NOW FOR FEB 16 + 17!</h2></a></div>
         <iframe class='video-player' src='https://player.vimeo.com/video/191094791' width='640' height='360' frameBorder='0' webkitallowfullscreen mozallowfullscreen allowFullscreen></iframe>
@@ -102,7 +107,5 @@
         </ul>
       </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
