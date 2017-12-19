@@ -3,10 +3,10 @@
 var isShown = true;
 $('.hamburger-button').click(function() {
   if (isShown) {
-    $('#mobile-menu').fadeOut('fast');
+    $('.mobile-list').fadeOut('fast');
     isShown = false;
   } else {
-    $('#mobile-menu').fadeIn('fast');
+    $('.mobile-list').fadeIn('fast');
   }
 });
 
