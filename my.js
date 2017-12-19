@@ -8,7 +8,12 @@
 //   }
 // }
 
-$('#mobile-menu').hide();
+var isShown = true;
 $('.hamburger-button').click(function() {
-  $('#mobile-menu').fadeIn('fast');
+  if (isShown) {
+    $('#mobile-menu').fadeOut('fast');
+    isShown = false;
+  } else {
+    $('#mobile-menu').fadeIn('fast');
+  }
 });
