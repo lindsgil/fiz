@@ -1,5 +1,6 @@
 var mobileMenuVisible = false;
 $(document).on('touchstart click', '.hamburger-button', function(e) {
+  console.log("IS THIS WORKING AT ALL");
   e.stopPropagation();
   if (mobileMenuVisible) {
     $('.hamburger-menu-list').fadeOut('fast');
