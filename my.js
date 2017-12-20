@@ -1,15 +1,11 @@
 'use strict';
 
-var isShown = true;
+var isShown = false;
 $('.hamburger-button').click(function() {
   if (isShown) {
-    $('.mobile-list').fadeOut('fast');
-    isShown = false;
+    $('.mobile-menu').fadeIn('fast');
+    isShown = true;
   } else {
-    $('.mobile-list').fadeIn('fast');
+    $('.mobile-menu').fadeIn('fast');
   }
 });
-
-$('.team-logo').click(function() {
-  $('.team-logo').hide();
-})
