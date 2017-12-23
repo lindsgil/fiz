@@ -517,6 +517,10 @@ footer {
   margin-left: auto;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 h3.press {
   font-family: 'Helvetica-Light', 'Helvetica Light', 'Helvetica';
   font-weight: 200;
@@ -643,6 +647,10 @@ h1.clip-header {
   margin-top: 20px;
   margin-left: 30px;
   text-align: center;
+}
+
+.footer-menu {
+  display: inherit;
 }
 
 .hof-photo {
@@ -934,15 +942,18 @@ section.mobile {
     display: block;
   }
 
+  .footer-menu {
+    display: inherit;
+  }
+
   .mobile-menu {
     display: none;
     float: right;
     text-align: center;
-    font-family: Didot bold;
     width: 50%;
     list-style-type: none;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 4vw;
     list-style-image: none;
     color: white;
     background-color: black;
@@ -951,8 +962,68 @@ section.mobile {
     right: 0px;
     position: absolute;
     z-index: 99999 !important;
-    margin-top: 100px;
-    height: 100%;
+    margin-top: 90px;
+    height: 800px;
+  }
+
+  .mobile-menu li {
+    margin-top: 2vw;
+    height: 10%;
+  }
+  .header-merch-mobile {
+        font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+        color: #ffffff;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2em;
+        margin-right: 30px;
+        margin-left: 10px;
+  }
+  .header-ticket-mobile {
+        font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+        color: #ffffff;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2em;
+        margin-right: 30px;
+        margin-left: 10px;
+  }
+  .header-press-mobile {
+        font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+        color: #ffffff;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2em;
+        margin-right: 30px;
+        margin-left: 10px;
+  }
+  .header-vids-mobile {
+        font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+        color: #ffffff;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2em;
+        margin-right: 30px;
+        margin-left: 10px;
+  }
+  .header-past-shows-mobile {
+        font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+        color: #ffffff;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2em;
+        margin-right: 30px;
+        margin-left: 10px;
+  }
+  .header-phone-mobile {
+        font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue Condensed Black', 'Helvetica Neue';
+        color: #ffffff;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 2em;
+        margin-right: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
   }
   .mobile-list {
     display: block;
@@ -970,5 +1041,84 @@ section.mobile {
     margin-right: auto;
     margin-left: auto;
     float: none;
+  }
+  .footer-social-ig {
+    background-image: url(./img/u46.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-social-ig:hover {
+    background-image: url(./img/u46_mouseOver.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-social-fb {
+    background-image: url(./img/fb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-social-fb:hover {
+    background-image: url(./img/fb_over.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-social-yt {
+    background-image: url(./img/yt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-social-yt:hover {
+    background-image: url(./img/yt_over.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-social-twit {
+    background-image: url(./img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-social-twit:hover {
+    background-image: url(./img/twitter_over.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 40px;
+    z-index: 9999;
+    height: 40px;
+    width: 40px;
   }
 }

@@ -3,23 +3,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, shrink-to-fit=no">
   <head>
     <meta charset="UTF-8">
-    <script>
-    function showNav() {
-      let elem = document.getElementById('mobile-menu');
-      console.log('elem', elem);
-      if(elem.style.display !== 'none') {
-        elem.style.display = 'none';
-      } else {
-        elem.style.display = 'block';
-      }
-    }
-    </script>
     <link rel="stylesheet" href="./public/style.css">
     <title>The Future Is Zero</title>
   </head>
   <body>
     <div class='landing'>
-      <header class='desktop'>
+      <section class='desktop'>
         <ul>
           <a href='index.html'>
             <li class='header-logo'></li>
@@ -32,23 +21,16 @@
           <li><a href='vids.html' class='header-vids'>HIT CLIPS</a></li>
           <li><a href='halloffame.html' class='header-past-shows'>HALL OF FAME</a></li>
         </ul>
-      </header>
-      <header class='mobile'>
-        <ul>
-          <a href='index.html'>
-            <li class='header-logo'></li>
-          </a>
+      </section>
+      <button type='button' name='button' class='hamburger-button'>&#9776;</button>
+        <ul class='mobile-menu'>
+          <li><a href='https://nwfilmforum.org/events/the-future-is-0-feb-2018/' class='header-ticket-mobile' target='_blank'>TICKETS</a></li>
+          <li><a href='http://thefutureis0.bigcartel.com/' class='header-merch-mobile' target='_blank'>MERCH</a></li>
+          <li><a href='presspage.html' class='header-press-mobile'>PRESS</a></li>
+          <li><a href='vids.html' class='header-vids-mobile'>HIT CLIPS</a></li>
+          <li><a href='halloffame.html' class='header-past-shows-mobile'>HALL OF FAME</a></li>
+          <li><a href='tel:+1-844-666-8349' class='header-phone-mobile'>RING RING</a></li>
         </ul>
-        <button type='button' name='button' onclick="showNav();" class='hamburger-button'>&#9776;</button>
-          <ul id='mobile-menu'>
-            <li class='mobile-list'><a href='https://nwfilmforum.org/events/the-future-is-0-feb-2018/' class='header-ticket' target='_blank'>TICKETS</a></li>
-            <li class='mobile-list'><a href='http://thefutureis0.bigcartel.com/' class='header-merch' target='_blank'>MERCH</a></li>
-            <li class='mobile-list'><a href='presspage.html' class='header-press'>PRESS</a></li>
-            <li class='mobile-list'><a href='vids.html' class='header-vids'>HIT CLIPS</a></li>
-            <li class='mobile-list'><a href='halloffame.html' class='header-past-shows'>HALL OF FAME</a></li>
-            <li class='mobile-list'><a href='tel:+1-844-666-8349' class='header-phone'>RING RING</a></li>
-          </ul>
-      </header>
       <div class='press-one hof-div'>
         <img src='./public/img/greenborders.png' class='press-top-border'></img>
         <iframe width='560' height='315' src='https://www.youtube.com/embed/sm-0L4aXIY0?showinfo=0' frameBorder='0' gesture='media' allow='encrypted-media' allowFullScreen class='vid-div'></iframe>
@@ -122,7 +104,7 @@
         <img src='./public/img/pinkborders.png' class='press-lower-border'></img>
       </div>
       <footer>
-        <ul class='menu'>
+        <ul class='footer-menu'>
           <li>
             <a href='https://twitter.com/TheFutureis0' target='_blank'>
               <div class='footer-social-twit'></div>
@@ -137,7 +119,7 @@
         <h1 class='phone-number'>
           1-844-666-TFIZ
         </h1>
-        <ul class='menu'>
+        <ul class='footer-menu'>
           <li>
             <a href='https://www.facebook.com/thefutureis0/' target='_blank'>
               <div class='footer-social-fb'></div>
@@ -151,5 +133,10 @@
         </ul>
       </footer>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="my.js"></script>
   </body>
 </html>
