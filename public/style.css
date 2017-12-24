@@ -904,16 +904,9 @@ section.mobile {
     margin-bottom: 40vw !important;
   }
   body {
-    position: relative;
     width: 100%;
     background-image: url(../public/img/bg.gif);
     background-position: left top;
-    background-attachment: fixed;
-    background-size: 1000px;
-    background-repeat: repeat-y;
-    -webkit-background-size: 1000px;
-    -moz-background-size: 1000px;
-    -o-background-size: 1000px;
     align-items: center;
     justify-content: center;
     text-align: center;
