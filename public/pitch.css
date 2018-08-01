@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.pitch-one {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  height: 600px;
+  width: 800px;
+  background-image: url(../public/img/pitch-background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.landing-one {
+  border: solid black;
+  height: 590px;
+}
+
+.landing-logo {
+  height: 200px;
+  width: 70%;
+  margin: 100px auto;
+  margin-bottom: 50px;
+  background-image: url(../public/logo/pitch-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.landing-text {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+.pitch-two {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  height: 600px;
+  width: 800px;
+}
+
+.landing-two {
+  height: 500px;
+  width: 50%;
+  float: right;
+  background-image: url(../public/pitch/gradient-border.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.landing-two-text {
+  text-align: center;
+  padding: 10px;
+}
